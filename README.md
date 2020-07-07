@@ -1,6 +1,8 @@
 # Language Classification
 Developing language detection system for ChatBots
+The idea is to identify the language of the provided text which can be further utilized to perform language specific text pre-processing for applications like ChatBots.
+Sample data collected from Wikipedia.
 
+![chatbot](https://miro.medium.com/max/1400/1*Amgm2FYCGdOzFi4mC6NexA.jpeg)
 
-
-![chatbot](https://www.google.com/url?sa=i&url=https%3A%2F%2Fchatbotslife.com%2Fwriting-a-multilingual-chatbot-with-api-ai-23a0052a0477&psig=AOvVaw1HiHYU4PCPUJvWW5Q2wOe_&ust=1594221166317000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCND83eW2u-oCFQAAAAAdAAAAABAD)
+Performed cleaning and tokenization of text data and built a text classifier with F1-score of 85% using Naive Bayes algorithm. Improved model performance by handling class imbalance using subword units.
